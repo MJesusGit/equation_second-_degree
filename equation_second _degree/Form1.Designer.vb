@@ -22,59 +22,62 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
+        Me.lbl_statement_1 = New System.Windows.Forms.Label()
+        Me.lbl_equation = New System.Windows.Forms.Label()
+        Me.lbl_statetment_2 = New System.Windows.Forms.Label()
+        Me.lbl_coefficientA = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.lbl_coefficientC = New System.Windows.Forms.Label()
+        Me.txt_coefficientA = New System.Windows.Forms.TextBox()
+        Me.txt_CoefficientB = New System.Windows.Forms.TextBox()
+        Me.txt_coefficientC = New System.Windows.Forms.TextBox()
+        Me.lbl_coefficientB = New System.Windows.Forms.Label()
+        Me.btn_calculate = New System.Windows.Forms.Button()
+        Me.lbl_root1 = New System.Windows.Forms.Label()
+        Me.lbl_root2 = New System.Windows.Forms.Label()
+        Me.lbl_result_description = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
-        'Label1
+        'lbl_statement_1
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Label1.Location = New System.Drawing.Point(6, 9)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(564, 28)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Given the general formula for solving second degree equations:"
+        Me.lbl_statement_1.AutoSize = True
+        Me.lbl_statement_1.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.lbl_statement_1.Location = New System.Drawing.Point(6, 9)
+        Me.lbl_statement_1.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
+        Me.lbl_statement_1.Name = "lbl_statement_1"
+        Me.lbl_statement_1.Size = New System.Drawing.Size(564, 28)
+        Me.lbl_statement_1.TabIndex = 0
+        Me.lbl_statement_1.Text = "Given the general formula for solving second degree equations:"
         '
-        'Label2
+        'lbl_equation
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Segoe UI", 25.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Label2.Location = New System.Drawing.Point(302, 71)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(251, 46)
-        Me.Label2.TabIndex = 1
-        Me.Label2.Text = "Ax^2+Bx+C =0"
+        Me.lbl_equation.AutoSize = True
+        Me.lbl_equation.Font = New System.Drawing.Font("Segoe UI", 25.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.lbl_equation.Location = New System.Drawing.Point(257, 72)
+        Me.lbl_equation.Name = "lbl_equation"
+        Me.lbl_equation.Size = New System.Drawing.Size(251, 46)
+        Me.lbl_equation.TabIndex = 1
+        Me.lbl_equation.Text = "Ax^2+Bx+C =0"
         '
-        'Label3
+        'lbl_statetment_2
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Label3.Location = New System.Drawing.Point(6, 150)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(547, 28)
-        Me.Label3.TabIndex = 2
-        Me.Label3.Text = "Please, insert values in the parameters for obtaining the roots:"
+        Me.lbl_statetment_2.AutoSize = True
+        Me.lbl_statetment_2.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.lbl_statetment_2.Location = New System.Drawing.Point(6, 150)
+        Me.lbl_statetment_2.Name = "lbl_statetment_2"
+        Me.lbl_statetment_2.Size = New System.Drawing.Size(547, 28)
+        Me.lbl_statetment_2.TabIndex = 2
+        Me.lbl_statetment_2.Text = "Please, insert values in the parameters for obtaining the roots:"
         '
-        'Label4
+        'lbl_coefficientA
         '
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Segoe UI", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Label4.Location = New System.Drawing.Point(24, 208)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(174, 37)
-        Me.Label4.TabIndex = 3
-        Me.Label4.Text = "Coefficient A:"
+        Me.lbl_coefficientA.AutoSize = True
+        Me.lbl_coefficientA.Font = New System.Drawing.Font("Segoe UI", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.lbl_coefficientA.Location = New System.Drawing.Point(24, 208)
+        Me.lbl_coefficientA.Name = "lbl_coefficientA"
+        Me.lbl_coefficientA.Size = New System.Drawing.Size(174, 37)
+        Me.lbl_coefficientA.TabIndex = 3
+        Me.lbl_coefficientA.Text = "Coefficient A:"
         '
         'Label5
         '
@@ -86,73 +89,105 @@ Partial Class Form1
         Me.Label5.TabIndex = 4
         Me.Label5.Text = "Coefficient B:"
         '
-        'Label6
+        'lbl_coefficientC
         '
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Segoe UI", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Label6.Location = New System.Drawing.Point(25, 371)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(174, 37)
-        Me.Label6.TabIndex = 5
-        Me.Label6.Text = "Coefficient C:"
+        Me.lbl_coefficientC.AutoSize = True
+        Me.lbl_coefficientC.Font = New System.Drawing.Font("Segoe UI", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.lbl_coefficientC.Location = New System.Drawing.Point(25, 353)
+        Me.lbl_coefficientC.Name = "lbl_coefficientC"
+        Me.lbl_coefficientC.Size = New System.Drawing.Size(174, 37)
+        Me.lbl_coefficientC.TabIndex = 5
+        Me.lbl_coefficientC.Text = "Coefficient C:"
         '
-        'TextBox1
+        'txt_coefficientA
         '
-        Me.TextBox1.Location = New System.Drawing.Point(204, 202)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(83, 43)
-        Me.TextBox1.TabIndex = 6
+        Me.txt_coefficientA.Location = New System.Drawing.Point(204, 202)
+        Me.txt_coefficientA.Name = "txt_coefficientA"
+        Me.txt_coefficientA.Size = New System.Drawing.Size(83, 43)
+        Me.txt_coefficientA.TabIndex = 6
         '
-        'TextBox2
+        'txt_CoefficientB
         '
-        Me.TextBox2.Location = New System.Drawing.Point(204, 287)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(83, 43)
-        Me.TextBox2.TabIndex = 7
+        Me.txt_CoefficientB.Location = New System.Drawing.Point(204, 275)
+        Me.txt_CoefficientB.Name = "txt_CoefficientB"
+        Me.txt_CoefficientB.Size = New System.Drawing.Size(83, 43)
+        Me.txt_CoefficientB.TabIndex = 7
         '
-        'TextBox3
+        'txt_coefficientC
         '
-        Me.TextBox3.Location = New System.Drawing.Point(204, 371)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(83, 43)
-        Me.TextBox3.TabIndex = 8
+        Me.txt_coefficientC.Location = New System.Drawing.Point(204, 353)
+        Me.txt_coefficientC.Name = "txt_coefficientC"
+        Me.txt_coefficientC.Size = New System.Drawing.Size(83, 43)
+        Me.txt_coefficientC.TabIndex = 8
         '
-        'Label7
+        'lbl_coefficientB
         '
-        Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Segoe UI", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Label7.Location = New System.Drawing.Point(24, 293)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(172, 37)
-        Me.Label7.TabIndex = 4
-        Me.Label7.Text = "Coefficient B:"
+        Me.lbl_coefficientB.AutoSize = True
+        Me.lbl_coefficientB.Font = New System.Drawing.Font("Segoe UI", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.lbl_coefficientB.Location = New System.Drawing.Point(24, 281)
+        Me.lbl_coefficientB.Name = "lbl_coefficientB"
+        Me.lbl_coefficientB.Size = New System.Drawing.Size(172, 37)
+        Me.lbl_coefficientB.TabIndex = 4
+        Me.lbl_coefficientB.Text = "Coefficient B:"
         '
-        'Button1
+        'btn_calculate
         '
-        Me.Button1.ForeColor = System.Drawing.Color.DarkCyan
-        Me.Button1.Location = New System.Drawing.Point(554, 347)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(188, 85)
-        Me.Button1.TabIndex = 9
-        Me.Button1.Text = "Calculate"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btn_calculate.ForeColor = System.Drawing.Color.DarkCyan
+        Me.btn_calculate.Location = New System.Drawing.Point(597, 386)
+        Me.btn_calculate.Name = "btn_calculate"
+        Me.btn_calculate.Size = New System.Drawing.Size(145, 46)
+        Me.btn_calculate.TabIndex = 9
+        Me.btn_calculate.Text = "Calculate"
+        Me.btn_calculate.UseVisualStyleBackColor = True
+        '
+        'lbl_root1
+        '
+        Me.lbl_root1.AutoSize = True
+        Me.lbl_root1.Location = New System.Drawing.Point(364, 202)
+        Me.lbl_root1.Name = "lbl_root1"
+        Me.lbl_root1.Size = New System.Drawing.Size(108, 37)
+        Me.lbl_root1.TabIndex = 10
+        Me.lbl_root1.Text = "Root  1:"
+        Me.lbl_root1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'lbl_root2
+        '
+        Me.lbl_root2.AutoSize = True
+        Me.lbl_root2.Location = New System.Drawing.Point(364, 275)
+        Me.lbl_root2.Name = "lbl_root2"
+        Me.lbl_root2.Size = New System.Drawing.Size(101, 37)
+        Me.lbl_root2.TabIndex = 11
+        Me.lbl_root2.Text = "Root 2:"
+        Me.lbl_root2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'lbl_result_description
+        '
+        Me.lbl_result_description.AutoSize = True
+        Me.lbl_result_description.Location = New System.Drawing.Point(364, 334)
+        Me.lbl_result_description.Name = "lbl_result_description"
+        Me.lbl_result_description.Size = New System.Drawing.Size(152, 37)
+        Me.lbl_result_description.TabIndex = 12
+        Me.lbl_result_description.Text = "Description"
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(15.0!, 37.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(783, 450)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.Label7)
+        Me.Controls.Add(Me.lbl_result_description)
+        Me.Controls.Add(Me.lbl_root2)
+        Me.Controls.Add(Me.lbl_root1)
+        Me.Controls.Add(Me.btn_calculate)
+        Me.Controls.Add(Me.txt_coefficientC)
+        Me.Controls.Add(Me.txt_CoefficientB)
+        Me.Controls.Add(Me.txt_coefficientA)
+        Me.Controls.Add(Me.lbl_coefficientC)
+        Me.Controls.Add(Me.lbl_coefficientB)
         Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.lbl_coefficientA)
+        Me.Controls.Add(Me.lbl_statetment_2)
+        Me.Controls.Add(Me.lbl_equation)
+        Me.Controls.Add(Me.lbl_statement_1)
         Me.Font = New System.Drawing.Font("Segoe UI", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.Name = "Form1"
         Me.Text = "Form1"
@@ -161,15 +196,18 @@ Partial Class Form1
 
     End Sub
 
-    Friend WithEvents Label1 As Label
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Label4 As Label
+    Friend WithEvents lbl_statement_1 As Label
+    Friend WithEvents lbl_equation As Label
+    Friend WithEvents lbl_statetment_2 As Label
+    Friend WithEvents lbl_coefficientA As Label
     Friend WithEvents Label5 As Label
-    Friend WithEvents Label6 As Label
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents Label7 As Label
-    Friend WithEvents Button1 As Button
+    Friend WithEvents lbl_coefficientC As Label
+    Friend WithEvents txt_coefficientA As TextBox
+    Friend WithEvents txt_CoefficientB As TextBox
+    Friend WithEvents txt_coefficientC As TextBox
+    Friend WithEvents lbl_coefficientB As Label
+    Friend WithEvents btn_calculate As Button
+    Friend WithEvents lbl_root1 As Label
+    Friend WithEvents lbl_root2 As Label
+    Friend WithEvents lbl_result_description As Label
 End Class
