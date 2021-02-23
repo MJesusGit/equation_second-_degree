@@ -26,7 +26,6 @@ Partial Class Form1
         Me.lbl_equation = New System.Windows.Forms.Label()
         Me.lbl_statetment_2 = New System.Windows.Forms.Label()
         Me.lbl_coefficientA = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
         Me.lbl_coefficientC = New System.Windows.Forms.Label()
         Me.txt_coefficientA = New System.Windows.Forms.TextBox()
         Me.txt_CoefficientB = New System.Windows.Forms.TextBox()
@@ -79,16 +78,6 @@ Partial Class Form1
         Me.lbl_coefficientA.TabIndex = 3
         Me.lbl_coefficientA.Text = "Coefficient A:"
         '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Segoe UI", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Label5.Location = New System.Drawing.Point(26, 293)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(172, 37)
-        Me.Label5.TabIndex = 4
-        Me.Label5.Text = "Coefficient B:"
-        '
         'lbl_coefficientC
         '
         Me.lbl_coefficientC.AutoSize = True
@@ -124,7 +113,7 @@ Partial Class Form1
         '
         Me.lbl_coefficientB.AutoSize = True
         Me.lbl_coefficientB.Font = New System.Drawing.Font("Segoe UI", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.lbl_coefficientB.Location = New System.Drawing.Point(24, 281)
+        Me.lbl_coefficientB.Location = New System.Drawing.Point(26, 281)
         Me.lbl_coefficientB.Name = "lbl_coefficientB"
         Me.lbl_coefficientB.Size = New System.Drawing.Size(172, 37)
         Me.lbl_coefficientB.TabIndex = 4
@@ -183,7 +172,6 @@ Partial Class Form1
         Me.Controls.Add(Me.txt_coefficientA)
         Me.Controls.Add(Me.lbl_coefficientC)
         Me.Controls.Add(Me.lbl_coefficientB)
-        Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.lbl_coefficientA)
         Me.Controls.Add(Me.lbl_statetment_2)
         Me.Controls.Add(Me.lbl_equation)
@@ -200,7 +188,6 @@ Partial Class Form1
     Friend WithEvents lbl_equation As Label
     Friend WithEvents lbl_statetment_2 As Label
     Friend WithEvents lbl_coefficientA As Label
-    Friend WithEvents Label5 As Label
     Friend WithEvents lbl_coefficientC As Label
     Friend WithEvents txt_coefficientA As TextBox
     Friend WithEvents txt_CoefficientB As TextBox
