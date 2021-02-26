@@ -16,21 +16,16 @@
         Me.real = a
         Me.imaginary = b
     End Sub
+
     Public Overrides Function toString() As String
         If Me.imaginary = 0 Then
-            Return Me.real.ToString("0.0000")
+            Return Me.real.ToString("0.00")
         Else
             If Me.imaginary > 0 Then
-                Return Me.real.ToString("0.0000") & "+" & Me.imaginary.ToString("0.0000") & "i"
+                Return Me.real.ToString("0.00") & "+" & Me.imaginary.ToString("0.00") & "i"
             Else
-                Return Me.real.ToString("0.0000") & Me.imaginary.ToString("0.0000") & "i"
-
-
-
-
+                Return Me.real.ToString("0.00") & "+" & (-CInt(Me.imaginary.ToString("0.00"))) & "i"
             End If
-
-
         End If
     End Function
 End Class

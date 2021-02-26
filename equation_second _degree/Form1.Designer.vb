@@ -35,6 +35,7 @@ Partial Class Form1
         Me.lbl_root1 = New System.Windows.Forms.Label()
         Me.lbl_root2 = New System.Windows.Forms.Label()
         Me.lbl_result_description = New System.Windows.Forms.Label()
+        Me.btn_clean = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'lbl_statement_1
@@ -134,9 +135,8 @@ Partial Class Form1
         Me.lbl_root1.AutoSize = True
         Me.lbl_root1.Location = New System.Drawing.Point(364, 202)
         Me.lbl_root1.Name = "lbl_root1"
-        Me.lbl_root1.Size = New System.Drawing.Size(108, 37)
+        Me.lbl_root1.Size = New System.Drawing.Size(0, 37)
         Me.lbl_root1.TabIndex = 10
-        Me.lbl_root1.Text = "Root  1:"
         Me.lbl_root1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'lbl_root2
@@ -144,9 +144,8 @@ Partial Class Form1
         Me.lbl_root2.AutoSize = True
         Me.lbl_root2.Location = New System.Drawing.Point(364, 275)
         Me.lbl_root2.Name = "lbl_root2"
-        Me.lbl_root2.Size = New System.Drawing.Size(101, 37)
+        Me.lbl_root2.Size = New System.Drawing.Size(0, 37)
         Me.lbl_root2.TabIndex = 11
-        Me.lbl_root2.Text = "Root 2:"
         Me.lbl_root2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'lbl_result_description
@@ -154,15 +153,25 @@ Partial Class Form1
         Me.lbl_result_description.AutoSize = True
         Me.lbl_result_description.Location = New System.Drawing.Point(364, 334)
         Me.lbl_result_description.Name = "lbl_result_description"
-        Me.lbl_result_description.Size = New System.Drawing.Size(152, 37)
+        Me.lbl_result_description.Size = New System.Drawing.Size(0, 37)
         Me.lbl_result_description.TabIndex = 12
-        Me.lbl_result_description.Text = "Description"
+        '
+        'btn_clean
+        '
+        Me.btn_clean.ForeColor = System.Drawing.Color.LightSeaGreen
+        Me.btn_clean.Location = New System.Drawing.Point(437, 386)
+        Me.btn_clean.Name = "btn_clean"
+        Me.btn_clean.Size = New System.Drawing.Size(133, 46)
+        Me.btn_clean.TabIndex = 13
+        Me.btn_clean.Text = "Clean"
+        Me.btn_clean.UseVisualStyleBackColor = True
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(15.0!, 37.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(783, 450)
+        Me.Controls.Add(Me.btn_clean)
         Me.Controls.Add(Me.lbl_result_description)
         Me.Controls.Add(Me.lbl_root2)
         Me.Controls.Add(Me.lbl_root1)
@@ -197,4 +206,5 @@ Partial Class Form1
     Friend WithEvents lbl_root1 As Label
     Friend WithEvents lbl_root2 As Label
     Friend WithEvents lbl_result_description As Label
+    Friend WithEvents btn_clean As Button
 End Class
