@@ -64,6 +64,15 @@
         Me.txt_coefficientA.Clear()
         Me.txt_CoefficientB.Clear()
         Me.txt_coefficientC.Clear()
+        lbl_root1.Text = " "
+        lbl_root2.Text = " "
+        lbl_result_description.Text = " "
+
+
+
+
+
+
 
 
     End Sub
