@@ -60,8 +60,11 @@
 
     End Sub
 
+    Private Sub btn_clean_Click(sender As Object, e As EventArgs) Handles btn_clean.Click
+        Me.txt_coefficientA.Clear()
+        Me.txt_CoefficientB.Clear()
+        Me.txt_coefficientC.Clear()
 
 
-
-
+    End Sub
 End Class
